@@ -1,12 +1,19 @@
 {
-  "name": "my-string-utils",
+  "name": "@priyanshu-gituser/my-string-utils",
   "version": "1.0.0",
+  "description": "Simple string utility functions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "keywords": ["string", "utils", "utilities"],
+  "author": "Priyanshu Ranjan",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/priyanshu-gituser/string-utils.git"
+  }
 }
